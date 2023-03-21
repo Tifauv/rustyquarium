@@ -1,0 +1,8 @@
+[package]
+name    = "aquarium"
+version = "0.1.0"
+authors = [ "Olivier Serve <tifauv@gmail.com>" ]
+edition = "2021"
+
+[dependencies]
+legion = "0.4.0"
