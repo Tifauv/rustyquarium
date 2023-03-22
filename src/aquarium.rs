@@ -17,3 +17,10 @@ pub struct Poisson {
 }
 
 
+pub fn init_algue() -> (Algue, ) {
+    (Algue {}, )
+}
+
+pub fn init_poisson(p_nom: &'static str, p_sexe: Sexe) -> (Poisson, ) {
+    (Poisson { nom: p_nom, sexe: p_sexe }, )
+}
